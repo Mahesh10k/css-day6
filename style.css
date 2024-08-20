@@ -1,0 +1,75 @@
+body {
+    background-color: whitesmoke;
+}
+.navbar {
+    background-color: skyblue;
+    padding: 10px;
+    text-align: center;
+}
+.navbar > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.navbar > a:hover {
+    border-bottom: 2px solid green;
+}
+.container {
+    padding: 0px 10px;
+    width: 60%; 
+    box-shadow: 2px 2px 3px gray;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+#home > h2 {
+    padding: 20px;
+    text-align: center;
+}
+p > img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+span {
+    display: block;
+    margin-top: 8%;
+}
+#about {
+    height: 170px;
+}
+table {
+    width: 100%;
+}
+.project {
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.project_list, .project {
+    display: inline-block;
+    gap: 30px;
+}
+input {
+    width: 90%;
+    height: 25px;
+}
+input:focus {
+    background-color: whitesmoke;
+}
+textarea {
+    width: 90%;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
