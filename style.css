@@ -2,6 +2,8 @@ body {
     background-color: whitesmoke;
 }
 .navbar {
+    position: sticky;
+    top: 0%;
     background-color: skyblue;
     padding: 10px;
     text-align: center;
@@ -15,7 +17,6 @@ body {
     border-bottom: 2px solid green;
 }
 .container {
-    padding: 0px 10px;
     width: 60%; 
     box-shadow: 2px 2px 3px gray;
     margin-left: auto;
@@ -44,6 +45,15 @@ span {
 }
 table {
     width: 100%;
+}
+table thead {
+    background-color: skyblue;
+}
+table,thead,tbody,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: start;
 }
 .project {
     width: 300px;
