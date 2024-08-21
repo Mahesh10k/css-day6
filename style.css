@@ -50,7 +50,7 @@ table thead {
     background-color: skyblue;
 }
 table,thead,tbody,th,td {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
     text-align: start;
@@ -77,9 +77,19 @@ input:focus {
 textarea {
     width: 90%;
 }
+textarea:focus{
+    background-color: whitesmoke;
+}
 button {
     background-color: green;
     color: white;
     padding: 10px;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: skyblue;
+    padding:20px;
+    color: white;
 }
 
